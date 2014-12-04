@@ -1,6 +1,6 @@
 {
   "name": "salt-shaker",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A script to purge old slugs from a datastore",
   "main": "application.js",
   "scripts": {
