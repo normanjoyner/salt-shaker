@@ -1,0 +1,35 @@
+{
+  "name": "salt-shaker",
+  "version": "0.0.0",
+  "description": "A script to purge old slugs from a datastore",
+  "main": "application.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/normanjoyner/salt-shaker.git"
+  },
+  "keywords": [
+    "salt-shaker",
+    "purge",
+    "oldest",
+    "slugs",
+    "s3"
+  ],
+  "author": "Norman Joyner <norman.joyner@gmail.com>",
+  "license": "GPLv2",
+  "bugs": {
+    "url": "https://github.com/normanjoyner/salt-shaker/issues"
+  },
+  "homepage": "https://github.com/normanjoyner/salt-shaker",
+  "bin": {
+    "salt-shaker": "./application.js"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.0.29",
+    "lodash": "^2.4.1",
+    "nomnom": "^1.8.1",
+    "winston": "^0.8.3"
+  }
+}
